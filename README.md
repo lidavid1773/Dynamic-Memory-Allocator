@@ -9,6 +9,6 @@ A dynamic memory allocator for the x86-64 architecture with the following featur
 -Allocated blocks aligned to "quadruple memory row" (32-byte) boundaries.\
 -Free lists maintained using last in first out (LIFO) discipline.\
 -Use of a prologue and epilogue to achieve required alignment and avoid edge cases at the end of the heap.\
--"Wilderness preservation" heuristic, to avoid unnecessary growing of the heap.\
+-"Wilderness preservation" heuristic, to avoid unnecessary growing of the heap.
 
 I have implemented my own versions of the malloc, realloc, and free functions for C.
